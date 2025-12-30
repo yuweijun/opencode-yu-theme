@@ -2,7 +2,7 @@
 
 A dark theme for [OpenCode](https://opencode.ai) based on the beautiful [Ayu](https://github.com/ayu-theme/ayu-colors) color scheme.
 
-![Ayu Dark](https://raw.githubusercontent.com/ayu-theme/ayu-colors/master/assets/dark.png)
+![Ayu Dark Theme Preview](preview.svg)
 
 ## Installation
 

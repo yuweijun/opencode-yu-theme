@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Background -->
+  <rect width="1200" height="750" fill="#0D1017"/>
+  
+  <!-- Right Sidebar -->
+  <rect x="900" y="0" width="300" height="750" fill="#0B0E14"/>
+  <line x1="900" y1="0" x2="900" y2="750" stroke="#1E232C" stroke-width="1"/>
+  
+  <!-- Sidebar Content -->
+  <g font-family="SF Mono, Menlo, monospace">
+    <!-- Header -->
+    <text x="920" y="40" font-size="12" fill="#565B66">Maximizing search &amp; analysis modes</text>
+    
+    <!-- Context Section -->
+    <text x="920" y="80" font-size="13" font-weight="bold" fill="#BFBDB6">Context</text>
+    <text x="930" y="100" font-size="12" fill="#565B66">34,765 tokens</text>
+    <text x="930" y="118" font-size="12" fill="#565B66">17% used</text>
+    <text x="930" y="136" font-size="12" fill="#7FD962">$0.00 spent</text>
+    
+    <!-- MCP Section -->
+    <text x="920" y="175" font-size="11" fill="#565B66">▼ MCP</text>
+    <g font-size="12">
+      <circle cx="930" cy="195" r="4" fill="#7FD962"/>
+      <text x="942" y="199" fill="#BFBDB6">chakra-ui</text>
+      <text x="1020" y="199" fill="#565B66">Disabled</text>
+      
+      <circle cx="930" cy="215" r="4" fill="#565B66"/>
+      <text x="942" y="219" fill="#8A9199">chrome-devtools</text>
+      <text x="1070" y="219" fill="#565B66">Disabled</text>
+      
+      <circle cx="930" cy="235" r="4" fill="#7FD962"/>
+      <text x="942" y="239" fill="#BFBDB6">codex</text>
+      <text x="990" y="239" fill="#73B8FF">Connected</text>
+      
+      <circle cx="930" cy="255" r="4" fill="#7FD962"/>
+      <text x="942" y="259" fill="#BFBDB6">context7</text>
+      <text x="1010" y="259" fill="#73B8FF">Connected</text>
+      
+      <circle cx="930" cy="275" r="4" fill="#565B66"/>
+      <text x="942" y="279" fill="#8A9199">git</text>
+      <text x="970" y="279" fill="#565B66">Disabled</text>
+      
+      <circle cx="930" cy="295" r="4" fill="#565B66"/>
+      <text x="942" y="299" fill="#8A9199">mermaid</text>
+      <text x="1005" y="299" fill="#565B66">Disabled</text>
+      
+      <circle cx="930" cy="315" r="4" fill="#565B66"/>
+      <text x="942" y="319" fill="#8A9199">playwright</text>
+      <text x="1020" y="319" fill="#565B66">Disabled</text>
+      
+      <circle cx="930" cy="335" r="4" fill="#7FD962"/>
+      <text x="942" y="339" fill="#BFBDB6">sequential-thinking</text>
+      <text x="1100" y="339" fill="#73B8FF">Connected</text>
+      
+      <circle cx="930" cy="355" r="4" fill="#565B66"/>
+      <text x="942" y="359" fill="#8A9199">terraform</text>
+      <text x="1015" y="359" fill="#565B66">Disabled</text>
+    </g>
+    
+    <!-- LSP Section -->
+    <text x="920" y="400" font-size="13" font-weight="bold" fill="#BFBDB6">LSP</text>
+    <circle cx="930" cy="420" r="4" fill="#7FD962"/>
+    <text x="942" y="424" font-size="12" fill="#BFBDB6">oxlint</text>
+    
+    <!-- Modified Files Section -->
+    <text x="920" y="465" font-size="13" font-weight="bold" fill="#BFBDB6">Modified Files</text>
+    <text x="930" y="488" font-size="12" fill="#8A9199">src/services/user.ts</text>
+    <text x="1120" y="488" font-size="12" fill="#7FD962">+1</text>
+    <text x="1150" y="488" font-size="12" fill="#D95757">-1</text>
+  </g>
+  
+  <!-- Main Content Area -->
+  <g font-family="SF Pro Display, -apple-system, sans-serif">
+    <!-- Task Title -->
+    <text x="40" y="50" font-size="16" font-weight="bold" fill="#BFBDB6">Fix the missing await in user.ts</text>
+    <text x="40" y="72" font-size="13" fill="#565B66">rostislav · 10:44 PM</text>
+    
+    <!-- Thinking Block 1 -->
+    <text x="40" y="115" font-size="14" fill="#E6B450" font-style="italic">Thinking:</text>
+    <text x="110" y="115" font-size="14" fill="#8A9199">The user wants me to fix a missing await in user.ts. This is a specific,</text>
+    <text x="40" y="135" font-size="14" fill="#8A9199">explicit request for a single file. Let me read the file first to understand the issue.</text>
+    
+    <!-- Plan Text -->
+    <text x="40" y="175" font-size="14" fill="#BFBDB6">This is a trivial/explicit task - I know the file location and the specific issue to fix. I should:</text>
+    <text x="40" y="198" font-size="14" fill="#BFBDB6">1. Read the file to understand the code (VBA Protocol)</text>
+    <text x="40" y="218" font-size="14" fill="#BFBDB6">2. Identify the missing await</text>
+    <text x="40" y="238" font-size="14" fill="#BFBDB6">3. Fix it</text>
+    
+    <text x="40" y="275" font-size="14" fill="#BFBDB6">Let me read the file first.</text>
+    
+    <!-- Read indicator -->
+    <text x="40" y="310" font-size="14" fill="#73B8FF">→</text>
+    <text x="60" y="310" font-size="14" fill="#565B66">Read src/services/user.ts</text>
+    
+    <!-- Thinking Block 2 -->
+    <text x="40" y="350" font-size="14" fill="#E6B450" font-style="italic">Thinking:</text>
+    <text x="110" y="350" font-size="14" fill="#8A9199">I can see the issue clearly on line 15:</text>
+    <text x="40" y="372" font-family="SF Mono, monospace" font-size="13"><tspan fill="#FF8F40">const</tspan><tspan fill="#BFBDB6"> data = response.</tspan><tspan fill="#FFB454">json</tspan><tspan fill="#BFBDB6">();</tspan><tspan fill="#626A77"> // Missing await - LSP error</tspan></text>
+    
+    <!-- Explanation -->
+    <text x="40" y="410" font-size="14" fill="#BFBDB6">response.json() returns a Promise, so it needs </text>
+    <text x="380" y="410" font-family="SF Mono, monospace" font-size="13" fill="#FF8F40">await</text>
+    <text x="430" y="410" font-size="14" fill="#BFBDB6"> to get the actual data.</text>
+    
+    <!-- Edit Block -->
+    <text x="40" y="455" font-size="14" fill="#73B8FF">←</text>
+    <text x="60" y="455" font-size="14" fill="#565B66">Edit src/services/user.ts</text>
+    
+    <!-- Diff View -->
+    <rect x="40" y="470" width="840" height="150" rx="6" fill="#0B0E14"/>
+    
+    <!-- Left side (old) -->
+    <g font-family="SF Mono, monospace" font-size="12">
+      <!-- Line numbers left -->
+      <text x="55" y="495" fill="#454950">11</text>
+      <text x="55" y="515" fill="#454950">12</text>
+      <text x="55" y="535" fill="#454950">13</text>
+      <text x="55" y="555" fill="#454950">14</text>
+      <text x="55" y="575" fill="#454950">15</text>
+      <text x="55" y="595" fill="#454950">16</text>
+      
+      <!-- Old code -->
+      <text x="85" y="495" fill="#626A77">// FIXME: Handle network errors</text>
+      <text x="85" y="515"><tspan fill="#FF8F40">async</tspan><tspan fill="#FFB454"> getUsers</tspan><tspan fill="#BFBDB6">(): </tspan><tspan fill="#59C2FF">Promise</tspan><tspan fill="#BFBDB6">&lt;</tspan><tspan fill="#59C2FF">User</tspan><tspan fill="#BFBDB6">[]&gt; {</tspan></text>
+      <text x="85" y="535"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">const</tspan><tspan fill="#BFBDB6"> response = </tspan><tspan fill="#FF8F40">await</tspan><tspan fill="#FFB454"> fetch</tspan><tspan fill="#BFBDB6">(</tspan><tspan fill="#39BAE6">this</tspan><tspan fill="#BFBDB6">.apiUrl);</tspan></text>
+      
+      <!-- Removed line (red) -->
+      <rect x="75" y="543" width="350" height="18" fill="rgba(217, 87, 87, 0.15)"/>
+      <text x="75" y="555" fill="#D95757">-</text>
+      <text x="85" y="555"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">const</tspan><tspan fill="#BFBDB6"> data = response.</tspan><tspan fill="#FFB454">json</tspan><tspan fill="#BFBDB6">();</tspan><tspan fill="#626A77"> // Missing await</tspan></text>
+      
+      <text x="85" y="575"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">return</tspan><tspan fill="#BFBDB6"> data;</tspan></text>
+      
+      <!-- Line numbers right -->
+      <text x="465" y="495" fill="#454950">11</text>
+      <text x="465" y="515" fill="#454950">12</text>
+      <text x="465" y="535" fill="#454950">13</text>
+      <text x="465" y="555" fill="#454950">14</text>
+      <text x="465" y="575" fill="#454950">15</text>
+      <text x="465" y="595" fill="#454950">16</text>
+      
+      <!-- New code -->
+      <text x="495" y="495" fill="#626A77">// FIXME: Handle network errors</text>
+      <text x="495" y="515"><tspan fill="#FF8F40">async</tspan><tspan fill="#FFB454"> getUsers</tspan><tspan fill="#BFBDB6">(): </tspan><tspan fill="#59C2FF">Promise</tspan><tspan fill="#BFBDB6">&lt;</tspan><tspan fill="#59C2FF">User</tspan><tspan fill="#BFBDB6">[]&gt; {</tspan></text>
+      <text x="495" y="535"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">const</tspan><tspan fill="#BFBDB6"> response = </tspan><tspan fill="#FF8F40">await</tspan><tspan fill="#FFB454"> fetch</tspan><tspan fill="#BFBDB6">(</tspan><tspan fill="#39BAE6">this</tspan><tspan fill="#BFBDB6">.apiUrl);</tspan></text>
+      
+      <!-- Added line (green) -->
+      <rect x="485" y="543" width="350" height="18" fill="rgba(127, 217, 98, 0.15)"/>
+      <text x="485" y="555" fill="#7FD962">+</text>
+      <text x="495" y="555"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">const</tspan><tspan fill="#BFBDB6"> data = </tspan><tspan fill="#FF8F40">await</tspan><tspan fill="#BFBDB6"> response.</tspan><tspan fill="#FFB454">json</tspan><tspan fill="#BFBDB6">();</tspan></text>
+      
+      <text x="495" y="575"><tspan fill="#BFBDB6">  </tspan><tspan fill="#FF8F40">return</tspan><tspan fill="#BFBDB6"> data;</tspan></text>
+    </g>
+    
+    <!-- Final thinking -->
+    <text x="40" y="645" font-size="14" fill="#E6B450" font-style="italic">Thinking:</text>
+    <text x="110" y="645" font-size="14" fill="#8A9199">The edit was successful. Let me verify with lsp_diagnostics.</text>
+    
+    <!-- Tool call -->
+    <text x="40" y="670" font-size="14" fill="#565B66">⊙</text>
+    <text x="60" y="670" font-size="13" fill="#565B66">lsp_diagnostics [filePath=/private/tmp/opencode-demo/src/services/user.ts]</text>
+  </g>
+  
+  <!-- Input Area -->
+  <rect x="40" y="690" width="840" height="2" fill="#E6B450"/>
+  
+  <!-- Status Bar -->
+  <rect x="0" y="720" width="1200" height="30" fill="#0B0E14"/>
+  <text x="40" y="740" font-family="SF Mono, monospace" font-size="12" fill="#E6B450">Sisyphus</text>
+  <text x="110" y="740" font-family="SF Mono, monospace" font-size="12" fill="#565B66">Claude Opus 4.5 (latest) Anthropic</text>
+  
+  <text x="750" y="740" font-family="SF Mono, monospace" font-size="12" fill="#565B66">/private/tmp/opencode-demo:main</text>
+  
+  <text x="920" y="740" font-family="SF Mono, monospace" font-size="11" fill="#565B66">tab</text>
+  <text x="950" y="740" font-family="SF Mono, monospace" font-size="11" fill="#8A9199">switch agent</text>
+  <text x="1040" y="740" font-family="SF Mono, monospace" font-size="11" fill="#565B66">ctrl+p</text>
+  <text x="1085" y="740" font-family="SF Mono, monospace" font-size="11" fill="#8A9199">commands</text>
+  
+  <!-- OpenCode version -->
+  <circle cx="1115" cy="515" r="5" fill="#7FD962"/>
+  <text x="1128" y="520" font-family="SF Mono, monospace" font-size="12" fill="#7FD962">OpenCode 1.0.218</text>
+  
+  <!-- Ayu Dark badge -->
+  <rect x="960" y="550" width="140" height="28" rx="6" fill="rgba(230, 180, 80, 0.15)"/>
+  <text x="1030" y="569" font-family="SF Pro Display, sans-serif" font-size="13" font-weight="600" fill="#E6B450" text-anchor="middle">Ayu Dark Theme</text>
+</svg>
