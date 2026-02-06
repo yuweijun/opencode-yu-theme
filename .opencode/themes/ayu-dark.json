@@ -3,7 +3,7 @@
   "defs": {
     "ayuBg": "#0D1017",
     "ayuEditorBg": "#10141C",
-    "ayuPanelBg": "#141821",
+    "ayuPanelBg": "#141821A0",
     "ayuLine": "#161A24",
     "ayuFg": "#BFBDB6",
     "ayuUiFg": "#555E73",
@@ -17,14 +17,16 @@
     "ayuString": "#AAD94C",
     "ayuRegexp": "#95E6CB",
     "ayuMarkup": "#F07178",
-    "ayuKeyword": "#FF8F40",
+    "ayuKeyword": "#59C2FFA0",
     "ayuSpecial": "#E6C08A",
-    "ayuComment": "#626d7a",
+    "ayuComment": "#DDDDDD40",
     "ayuConstant": "#D2A6FF",
     "ayuOperator": "#F29668",
     "ayuAdded": "#70BF56",
+    "ayuAddedBg": "#002900",
     "ayuModified": "#73B8FF",
     "ayuRemoved": "#F26D78",
+    "ayuRemovedBg": "#440000",
     "ayuSelection": "#3388FF40",
     "ayuBorder": "#1B1F29"
   },
@@ -114,12 +116,12 @@
       "light": "ayuRemoved"
     },
     "diffAddedBg": {
-      "dark": "#1a2618",
-      "light": "#e4f0fb"
+      "dark": "ayuAddedBg",
+      "light": "ayuAddedBg"
     },
     "diffRemovedBg": {
-      "dark": "#2a1a1a",
-      "light": "#fbe4e4"
+      "dark": "ayuRemovedBg",
+      "light": "ayuRemovedBg"
     },
     "diffContextBg": {
       "dark": "ayuEditorBg",
@@ -130,12 +132,12 @@
       "light": "ayuUiFg"
     },
     "diffAddedLineNumberBg": {
-      "dark": "#1a2618",
-      "light": "#e4f0fb"
+      "dark": "ayuAddedBg",
+      "light": "ayuAddedBg"
     },
     "diffRemovedLineNumberBg": {
-      "dark": "#2a1a1a",
-      "light": "#fbe4e4"
+      "dark": "ayuRemovedBg",
+      "light": "ayuRemovedBg"
     },
     "markdownText": {
       "dark": "ayuFg",
